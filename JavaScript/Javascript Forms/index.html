@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Forms</title>
+</head>
+<body>
+
+    <!-- Javascript Forms
+    HTML forms can be validated using javascript, they are submitted to a server
+    -->
+    
+    <!-- <form>
+        <input type="text" name="firstName" id="firstName">
+        <button type="button" onclick="getValue()">Get Value</button>
+    </form> -->
+
+    <form action="https://codeliber.com/form-action.php" onsubmit="return validateForm()">
+    <label>First Name: <input type="text" name = "firstName"></label>
+    <input type="submit">
+
+         <p>This is demo requires <b> internet connection</b></p>
+    </form>
+
+<!-- 
+     <form action="https://codeliber.com/form-action.php" onsubmit="return validateform()">
+    <label>Age: <input type="text" name = "age"></label>
+    <input type="submit">
+
+         <p>This is demo requires <b> internet connection</b></p>
+    </form> -->
+
+
+    
+
+<script src="app.js"></script>
+</body>
+</html>

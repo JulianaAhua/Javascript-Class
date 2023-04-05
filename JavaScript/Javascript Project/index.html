@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Website Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <header class="header">
+
+
+        <a href="#" class="logo"><i class="bi bi-cart4"></i>Groco</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#product">Product</a>
+            <a href="#categories">Categories</a>
+        </nav>
+        <div class="icons">
+
+            <div class="bi bi-list" id="menu-btn"></div>
+
+            <div class="bi bi-search" id="search-btn"></div>
+
+            <div class="bi bi-cart3" id="cart-btn"></div>
+
+            <div class="bi bi-person-add" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here........">
+            <label for="search-box" class="bi bi-search" ></label>
+
+        </form>
+
+   
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="bi bi-trash-fill"></i>
+                <img src="./grocery images/chicken 2.png">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">$20.9</span>
+                    <span class="quantity">qty:1</span>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="bi bi-trash-fill"></i>
+                <img src="./grocery images/kale-fau.png">
+                <div class="content">
+                    <h3>Kale Vegetable</h3>
+                    <span class="price">$10.9</span>
+                    <span class="quantity">qty:2</span>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="bi bi-trash-fill"></i>
+                <img src="./grocery images/onions.png">
+                <div class="content">
+                    <h3>Onions</h3>
+                    <span class="price">$5.9</span>
+                    <span class="quantity">qty:3</s pan>
+
+                </div>
+            </div>
+
+            <div class="total">Total $35.5/~</div>
+            <a href="#" class="btn">Check Out</a>
+
+        </div>
+       
+       <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="your mail" class="box">
+        <input type="password" placeholder="your password" class="box">
+
+        <p>Forget Your Pasword<a href="#">Click Here</a></p>
+        <p>Forget Your Pasword<a href="#">Click Here</a></p>
+
+        <input type="submit" value="login" class="btn">
+
+       </form>
+
+    </header>
+
+
+    <!-- Home page -->
+    <section class="home" id="home">
+        <div class="content">
+            <h1>Fresh and <span>Organic</span> Products for You</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi iure quos adipisci quibusdam facilis laboriosam, pariatur doloremque fugit temporibus quod?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio unde quidem dolores repudiandae debitis aspernatur similique fugiat itaque earum tempora?Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+   <section class="features" id="features">
+    <h1 class="heading"><span>Our Features</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./Media/grocery bag.jpg" alt="grocery bag" width="300px" height="300px">
+            <h3>Fresh and Organic</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in ipsam reiciendis, doloremque autem nesciunt totam placeat mollitia beatae animi magni. Quos cumque consectetur quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, hic.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="box">
+            <img src="./Media/delivery guy.jpg" alt="grocery bag" width="300px" height="300px">
+            <h3>Free Delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in ipsam reiciendis, doloremque autem nesciunt totam placeat mollitia beatae animi magni. Quos cumque consectetur quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, hic.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="box">
+            <img src="./Media/seemless payment.jpg" alt="grocery bag" width="300px" height="300px">
+            <h3>Seamless Payment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus in ipsam reiciendis, doloremque autem nesciunt totam placeat mollitia beatae animi magni. Quos cumque consectetur quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, hic.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+
+
+    </div>
+
+   </section>
+
+
+
+<!-- Product -->
+<section class="products" id="products">
+<h1 class="heading"><span>Our Products</span></h1>
+
+    <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="./Media/oranges and lemon.jpg" width="" height="" alt="grocery veggies">
+                <h3>Fresh Oranges</h3>
+                <div class="price">%49.99/ - - 10.99</div>
+
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./Media/strawberries.jpg" width="" height="" alt="grocery veggies">
+                <h3>Fresh Oranges</h3>
+                <div class="price">%49.99/ - - 10.99</div>
+
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./Media/watermelon.jpg" width="" height="" alt="grocery veggies">
+                <h3>Fresh Oranges</h3>
+                <div class="price">%49.99/ - - 10.99</div>
+
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./Media/pineapple.jpg" width="" height="" alt="grocery veggies">
+                <h3>Fresh Oranges</h3>
+                <div class="price">%49.99/ - - 10.99</div>
+
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="./Media/oranges and lemon.jpg" width="" height="" alt="grocery veggies">
+                <h3>Fresh Oranges</h3>
+                <div class="price">%49.99/ - - 10.99</div>
+
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./Media/strawberries.jpg" width="" height="" alt="grocery veggies">
+                <h3>Fresh Oranges</h3>
+                <div class="price">%49.99/ - - 10.99</div>
+
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./Media/watermelon.jpg" width="" height="" alt="grocery veggies">
+                <h3>Fresh Oranges</h3>
+                <div class="price">%49.99/ - - 10.99</div>
+
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./Media/pineapple.jpg" width="" height="" alt="grocery veggies">
+                <h3>Fresh Oranges</h3>
+                <div class="price">%49.99/ - - 10.99</div>
+
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Categories Section -->
+
+<section class="categories" id="categories">
+    <h1 class="heading"><span>Product Categories</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./Media/strawberry carton.jpg" width="300px" height="300px" alt="">
+            <h3>Vegetables</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="./Media/strawberry carton.jpg" width="300px" height="300px" alt="">
+            <h3>Vegetables</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="./Media/strawberry carton.jpg" width="300px" height="300px" alt="">
+            <h3>Vegetables</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">Shop Now</a>
+            
+        </div>
+        <div class="box">
+            <img src="./Media/strawberry carton.jpg" width="300px" height="300px" alt="">
+            <h3>Vegetables</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">Shop Now</a>
+            
+        </div>
+        
+       
+
+
+        
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+ 
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
